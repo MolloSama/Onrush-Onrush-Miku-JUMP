@@ -1959,6 +1959,58 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &1966690276
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4989766528614776, guid: 36a85f8fad863d541baeb0c87d053cf2, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -5.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989766528614776, guid: 36a85f8fad863d541baeb0c87d053cf2, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989766528614776, guid: 36a85f8fad863d541baeb0c87d053cf2, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989766528614776, guid: 36a85f8fad863d541baeb0c87d053cf2, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989766528614776, guid: 36a85f8fad863d541baeb0c87d053cf2, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989766528614776, guid: 36a85f8fad863d541baeb0c87d053cf2, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989766528614776, guid: 36a85f8fad863d541baeb0c87d053cf2, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989766528614776, guid: 36a85f8fad863d541baeb0c87d053cf2, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 212176354766717788, guid: 36a85f8fad863d541baeb0c87d053cf2,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: 1483588389
+      objectReference: {fileID: 0}
+    - target: {fileID: 212176354766717788, guid: 36a85f8fad863d541baeb0c87d053cf2,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 36a85f8fad863d541baeb0c87d053cf2, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &2059406365
 Prefab:
   m_ObjectHideFlags: 0
