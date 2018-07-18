@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class sheep_control : MonoBehaviour {
 
-    float speed = 2f;
+    float speed = 5f;
     float upfactor = 500;
     Vector2 dir = Vector2.left;
 
