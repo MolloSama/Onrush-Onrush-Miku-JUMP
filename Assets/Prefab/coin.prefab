@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4773098997884426}
   - component: {fileID: 212404602701181814}
   - component: {fileID: 58737939149212920}
+  - component: {fileID: 114846178092700110}
+  - component: {fileID: 114274664007895168}
   m_Layer: 0
   m_Name: coin
   m_TagString: Untagged
@@ -56,6 +58,36 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.25
+--- !u!114 &114274664007895168
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1681308500591488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 544a0cb26b503044086ef5b6850d7563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114846178092700110
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1681308500591488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca9d195ee440dec4880588fe53efd64a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  SpawnPrefab: {fileID: 0}
+  nextPrefab: {fileID: 0}
 --- !u!212 &212404602701181814
 SpriteRenderer:
   m_ObjectHideFlags: 1
