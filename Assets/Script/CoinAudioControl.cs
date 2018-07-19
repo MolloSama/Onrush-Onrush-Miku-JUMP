@@ -7,7 +7,6 @@ public class CoinAudioControl : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D collider)
     {
         StartCoroutine(playAudio());
-
     }
 
     IEnumerator playAudio()
