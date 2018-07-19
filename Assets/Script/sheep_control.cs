@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class sheep_control : MonoBehaviour {
 
@@ -30,6 +31,8 @@ public class sheep_control : MonoBehaviour {
 
                 GetComponent<Collider2D>().enabled = false;
 
+                GetComponent<AudioSource>().Play();
+
                 collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * upfactor);
 
                 Invoke("Gameover", 4);
@@ -37,6 +40,7 @@ public class sheep_control : MonoBehaviour {
             else
             {
                 Destroy(collision.gameObject);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
 

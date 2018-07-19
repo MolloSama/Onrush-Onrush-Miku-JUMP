@@ -232,9 +232,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\AudioStation.cs" />
     <Compile Include="Assets\Script\box_control.cs" />
     <Compile Include="Assets\Script\carema_control.cs" />
+    <Compile Include="Assets\Script\CheckDead.cs" />
     <Compile Include="Assets\Script\coin_control.cs" />
+    <Compile Include="Assets\Script\CoinAudioControl.cs" />
     <Compile Include="Assets\Script\miku_control.cs" />
     <Compile Include="Assets\Script\sheep_control.cs" />
   </ItemGroup>

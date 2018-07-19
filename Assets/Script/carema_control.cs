@@ -24,11 +24,13 @@ public class carema_control : MonoBehaviour {
 
     void LateUpdate()
     {
-        if (mikuTransform.position.x - 0.5f > transform.position.x)
+        if (mikuTransform != null)
         {
-            Camera.main.transform.position = new Vector3(mikuTransform.position.x - 0.5f, transform.position.y, transform.position.z);
+            if (mikuTransform.position.x - 0.5f > transform.position.x)
+            {
+                Camera.main.transform.position = new Vector3(mikuTransform.position.x - 0.5f, transform.position.y, transform.position.z);
+            }
         }
-
 
 	}
 }

@@ -48,7 +48,7 @@ public class miku_control : MonoBehaviour {
         if(Input.GetKeyDown(KeyCode.UpArrow)&&grounded)
         {
             GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpfactor;
-            
+            GetComponent<AudioSource>().Play();
         }
         GetComponent<Animator>().SetBool("isjump", !grounded);
 
