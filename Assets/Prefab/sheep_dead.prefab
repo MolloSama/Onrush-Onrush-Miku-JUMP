@@ -22,9 +22,9 @@ GameObject:
   - component: {fileID: 212155633237293266}
   - component: {fileID: 95419615838604534}
   - component: {fileID: 50255938096017392}
-  - component: {fileID: 61103111242432542}
   - component: {fileID: 114834164687221448}
   - component: {fileID: 82343893457481368}
+  - component: {fileID: 58896624431884240}
   m_Layer: 0
   m_Name: sheep_dead
   m_TagString: Untagged
@@ -65,8 +65,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &61103111242432542
-BoxCollider2D:
+--- !u!58 &58896624431884240
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -77,19 +77,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.02}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.3333334, y: 1.3333334}
-    newSize: {x: 4, y: 4}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.66, y: 0.98}
-  m_EdgeRadius: 0
+  m_Radius: 0.5
 --- !u!82 &82343893457481368
 AudioSource:
   m_ObjectHideFlags: 1

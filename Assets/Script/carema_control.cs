@@ -26,9 +26,16 @@ public class carema_control : MonoBehaviour {
     {
         if (mikuTransform != null)
         {
+            //相机向右
             if (mikuTransform.position.x - 0.5f > transform.position.x)
             {
                 Camera.main.transform.position = new Vector3(mikuTransform.position.x - 0.5f, transform.position.y, transform.position.z);
+            }
+
+            //相机向左
+            if (mikuTransform.position.x + 0.5f < transform.position.x)
+            {
+                Camera.main.transform.position = new Vector3(mikuTransform.position.x + 0.5f, transform.position.y, transform.position.z);
             }
         }
 
