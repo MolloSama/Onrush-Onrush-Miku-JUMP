@@ -240,6 +240,7 @@
     <Compile Include="Assets\Script\coin_control.cs" />
     <Compile Include="Assets\Script\CoinAudioControl.cs" />
     <Compile Include="Assets\Script\miku_control.cs" />
+    <Compile Include="Assets\Script\SceneChanged.cs" />
     <Compile Include="Assets\Script\sheep_control.cs" />
     <Compile Include="Assets\Script\TextPrint.cs" />
   </ItemGroup>

@@ -1,8 +1,9 @@
 WindowsStandalone
 PlayerPath?
-E:/2018大二下/游戏关卡设计/course5/关卡task4-2_游戏DEMO_24320162202958_张炜伦/Onrush Onrush Miku JUMP/Onrush Onrush Miku Jump(DEMO v1.0).exe
+E:/2018大二下/游戏关卡设计/course5/关卡task4-2_游戏DEMO_24320162202958_张炜伦/Onrush Onrush Miku Jump(DEMO v2.0)/Onrush Onrush Miku Jump(DEMO v2.0).exe
 SceneListBegin?
 Assets/Scene/Main Scene.unity
+Assets/Scene/Second Scene.unity
 SceneListEnd?
 a0f68afcfbafd98376389c0039a66ed6 Assembly-CSharp.dll:.AudioStation
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -155,3 +156,4 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 d7f7993033630c6e3b3a27deaf5695f8 Assembly-CSharp.dll:.box_control
 f0a39610d0d7a8fa144ba140b033ec1e Assembly-CSharp.dll:.carema_control
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SceneChanged
